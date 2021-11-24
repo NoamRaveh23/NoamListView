@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp" 
+        android:orientation="horizontal">
+        <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="take pick"
+            android:layout_weight="1"
+        android:id="@+id/tp"/>
+        <ImageView
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+            android:layout_weight="1"
+            android:id="@+id/img"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Student Name"
+        android:gravity="center"
+        android:id="@+id/nm"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:gravity="center"
+        android:id="@+id/ag"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Grade"
+        android:gravity="center"
+        android:id="@+id/gr"/>
+
+
+      <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="boy"
+            android:id="@+id/boy"/>
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="girl"
+            android:id="@+id/girl"/>
+
+    </RadioGroup>
+
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" 
+        android:text="save"
+        android:id="@+id/save"/>
+
+
+    
+ </LinearLayout>
